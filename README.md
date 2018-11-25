@@ -12,7 +12,7 @@ This library only works with logs that can be paired up with one that 'starts' a
 [
   {kernel, [
      {logger, [
-         {handler, opencensus, tracelog_handler,
+         {handler, opencensus, tracelog,
           #{open_close_pairs => [
                 % {key name, {open val, close val}}
                 {type, {command, event}},
