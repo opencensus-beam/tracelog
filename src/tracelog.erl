@@ -1,4 +1,4 @@
--module(tracelog_handler).
+-module(tracelog).
 -export([adding_handler/1, removing_handler/1, log/2]).
 
 adding_handler(Config = #{}) ->
